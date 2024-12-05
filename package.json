@@ -1,0 +1,36 @@
+{
+  "name": "@hzmaat/rn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "rn": "lib/index.js"
+  },
+  "files": [
+    "lib/*.js",
+    "*.d.ts"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ./tsconfig.json",
+    "prepublish": "npm run build",
+    "watch": "tsc -w -p ./tsconfig.json"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.1.0",
+    "colors": "^1.4.0",
+    "fs-extra": "^11.2.0"
+  }
+}

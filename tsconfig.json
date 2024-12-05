@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+  },
+  "ignore": [ "**/tests/**" ],
+  "exclude": [ "**/tests/**", "**/node_modules/**" ]
+}
