@@ -1,6 +1,6 @@
 {
   "name": "@hzmaat/rn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -21,7 +21,15 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "keywords": ["rn", "remove-node-modules", "马特", "@hzmaat/rn", "node_modules", "remove", "删除node_modules"],
+  "keywords": [
+    "rn",
+    "remove-node-modules",
+    "马特",
+    "@hzmaat/rn",
+    "node_modules",
+    "remove",
+    "删除node_modules"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
