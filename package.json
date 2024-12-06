@@ -21,7 +21,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "keywords": [],
+  "keywords": ["rn", "remove-node-modules", "马特", "@hzmaat/rn", "node_modules", "remove", "删除node_modules"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
